@@ -9,9 +9,6 @@ $ composer install
 # generate database run
 $ php artisan migrate
 
-# serve with hot reload at localhost:8000
-$ php artisan migrate
-
 # insert subscriber table data
 $ php artisan db:seed --class=SubscriberSeeder
 
